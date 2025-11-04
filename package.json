@@ -1,0 +1,23 @@
+{
+  "name": "appium_demo",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000A\u0000p\u0000p\u0000i\u0000u\u0000m\u0000_\u0000d\u0000e\u0000m\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/appium-service": "^9.20.0",
+    "@wdio/cli": "^9.20.0",
+    "@wdio/local-runner": "^9.20.0",
+    "@wdio/mocha-framework": "^9.20.0",
+    "@wdio/spec-reporter": "^9.20.0",
+    "appium": "^3.1.0",
+    "appium-uiautomator2-driver": "^5.0.6",
+    "webdriverio": "^9.20.0"
+  }
+}
